@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body-wrapper {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+/* ----------Блок header/header-topbar---------*/
+.header {
+    height: 128px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.wrapper-topbar {
+    width: 100%;
+    background: #1E212C;
+}
+
+.header-topbar {
+    margin: 0 auto;
+    width: 1230px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-topbar-text {
+    opacity: 0.6;
+}
+
+.header-topbar-text-a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.6;
+    font-weight: 900;
+    padding-left: 2px;
+}
+
+.header-topbar-text-a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-topbar-ul {
+    width: 362px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-topbar-li {
+    list-style:none;
+}  
+
+.header-topbar-li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}  
+
+.header-topbar-li a:hover {
+    opacity: 1;
+}
+
+.header-topbar-data {
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-topbar-langcur {
+    background: url(../img/ico/down-chevron.svg) no-repeat center right 0;
+    width: 90px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.header-topbar-langcur:hover {
+    outline:1px solid #fff;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.header-topbar-language {
+    background: url(../img/ico/flag-usa.svg) no-repeat center left 0;
+    padding-left: 32px;
+}
+
+.header-topbar-logreg {
+    background: url(../img/ico/person.svg) no-repeat center left 0;
+    display: flex;
+    align-items: center;
+    width: 124px;
+    height: 21px;
+}
+
+.header-topbar-logreg-a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-topbar-logreg-a :hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* ----------Блок header/nav---------*/
+.wrapper-nav {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.header-nav {
+    margin: 0 auto;
+    width: 1230px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-menu {
+    width: 348px;
+    height: 26px;
+    margin-left: 60px;
+}
+
+.header-nav-menu-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-menu-li {
+    list-style: none;
+}
+
+.header-nav-menu-li a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.header-nav-menu-li a:hover {
+    color: #73788b;
+}
+
+.sale a{
+    color: #FF4242
+}
+
+.header-nav-search {
+    width: 380px;
+    height: 44px;
+    margin-left: 133px;
+}
+
+.header-nav-search-form {
+    position: relative;
+}
+
+.header-nav-search-form input  {
+    width: 380px;
+    height: 44px;  
+}
+
+input[type="text"] {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #9A9CA5;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+
+input[type="text"]:focus {
+    color: #9A9CA5;
+    background-color: #fff;
+    outline: 0;
+}
+
+.header-nav-search-button{
+    position: absolute;
+    background: url(../img/ico/search.svg) no-repeat 50% 50%;
+    width: 16px;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 348px;
+    margin-top: 14px;
+}
+
+.header-nav-favsch {
+    width: 131px;
+    height: 26px;
+    margin-left: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-favsch-favorites {
+    background: url(../img/ico/outline.svg) no-repeat left 0;
+    background-size:20px 20px;
+    width: 58px;
+    height: 20px;
+    border-right: 1px solid rgb(141, 139, 136);
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-favsch-favorites:hover {
+    cursor: pointer;
+}
+
+.header-nav-favsch-favorites-a {
+    color: #424551;
+    margin-left: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.header-nav-favsch-shopping {
+    background: url(../img/ico/cart.svg) no-repeat left 0; 
+    background-size:22px 22px;
+    width: 53px;
+    height: 22px;
+}
+
+.header-nav-favsch-shopping-a{
+    color: #fff;
+    margin-left: 30px;
+    background-color: #03CEA4;
+    border-radius: 4px;
+    width: 23px;
+    height: 20px;
+    line-height: 150%;
+    display: inline-block;
+    text-align: center;
+}
+
+.header-nav-favsch-shopping-a:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+/* ----------Блок carousel---------*/
+.carousel {
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 100%;
+    background: #17696A;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-box {
+    margin: 0 auto;
+    width: 274px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-box-previous {
+    background: url(../img/ico/left-chevron.svg) no-repeat left 0;
+    width: 16px;
+    height: 16px;
+}
+
+.carousel-box-previous:hover, 
+.carousel-box-next:hover{
+    cursor: pointer;
+}
+
+.carousel-box-discount {
+    font-weight: 900;
+}
+
+.carousel-box-a {
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #17696A;
+    font-weight: 400;
+    text-decoration-line: underline;
+    font-weight: 400;
+    text-decoration-line: underline;
+    padding-left: 4px;
+}
+
+.carousel-box-a:hover {
+    color: #cac4c4;
+}
+
+.carousel-box-next {
+    background: url(../img/ico/right-chevron.svg) no-repeat right 0;
+    width: 16px;
+    height: 16px;
+}
+
+/* ----------Блок heroslider---------*/
+.heroslider {
+    width: 100%;
+    height: 800px;
+    background-color: #73788b;
+    background: url(../img/slider.jpg) no-repeat center ;
+    display: flex;
+    align-items: center;
+}
+
+.heroslider-box {
+    margin: 0 auto;
+    width: 1230px;
+    display: flex;
+    align-self:baseline;
+    margin-top: 140px;
+}
+
+.heroslider-button-leftbox {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.heroslider-button-leftbox-button {
+    background: url(../img/ico/left.svg) no-repeat;
+    background-position: center center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.heroslider-box-text {
+    width: 723px;
+    height: 480px;
+}
+
+.heroslider-box-text-collection {
+    width: 534px;
+    height: 114px;
+}
+
+.heroslider-box-text-span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    white-space: nowrap;
+}
+
+.heroslider-box-text-h1 {
+    white-space: nowrap;  
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1E212C;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.heroslider-box-text-shop {
+    width: 405px;
+    height: 54px;
+    margin-top: 77px;
+    display: flex;
+}
+
+.heroslider-box-text-shop-sale {
+    width: 152px;
+    height: 52px;
+    border: 1px solid #17696A;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    color: #17696A;
+}
+
+.heroslider-box-text-shop-sale:hover {
+    border: 2px solid #0f5253;
+}
+
+.heroslider-box-text-shop-menswear {
+    width: 229px;
+    height: 52px;
+    background: #17696A;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-left: 24px;
+}   
+
+.heroslider-box-text-shop-menswear:hover {
+    background: #0f5253;
+}
+
+.heroslider-box-text-slider {
+    width: 723px;
+    height: 43px;
+    margin-top: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroslider-box-text-slider-box{
+    width: 178px;
+    height: 43px;
+    border: none;
+    border-bottom:2px solid #424551;
+}
+
+.nonaktive-slider {
+    border-bottom:2px solid #424551;
+    opacity: 0.3;
+}
+
+.nonaktive-slider:hover {
+    border-bottom:2px solid #424551;
+    opacity: 1;
+}
+
+.heroslider-box-text-slider-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #424551;
+}
+
+.heroslider-button-rightbox {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+}
+
+.heroslider-button-rightbox-button {
+    background: url(../img/ico/right.svg) no-repeat;
+    background-position: center center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+}
+/* ----------Блок categories---------*/
+.categories {
+    width: 100%;
+    height: 556px;
+    background-color: #fff;
+}
+
+.categories-box {
+    margin: 0 auto;
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-60px);
+
+}
+
+.categories-box-block-link {
+    height: 436px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+
+
+.categories-box-block-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #424551;
+}
+
+/* ----------Блок arrivals---------*/
+.arrivals {
+
+}
+
+.arrivals-text {
+
+}
+
+.arrivals-text-h2 {
+
+}
+
+.arrivals-text-span {
+
+}
+
+.arrivals-text-link {
+
+}
+
+.arrivals-carousel {
+
+}
+
+.arrivals-carousel-box {
+
+}
+
+.arrivals-carousel-box-img {
+
+}
+
+.arrivals-carousel-box-text {
+
+}
+
+.arrivals-carousel-box-description {
+
+}
+
+.arrivals-carousel-box-price {
+
+}
+
+.arrivals-slides {
+
+}
+
+.arrivals-slides-box {
+
+}
+
+.nonaktive-arrivals-slides {
+
+}
+
