@@ -361,6 +361,10 @@ input[type="text"]:focus {
     cursor: pointer;
 }
 
+.heroslider-button-leftbox-button:hover {
+    background-size: 30px 30px;
+}
+
 .heroslider-box-text {
     width: 723px;
     height: 480px;
@@ -493,6 +497,10 @@ input[type="text"]:focus {
     border: none;
     cursor: pointer;
 }
+
+.heroslider-button-rightbox-button:hover {
+    background-size: 30px 30px;
+}
 /* ----------Блок categories---------*/
 .categories {
     width: 100%;
@@ -532,6 +540,7 @@ input[type="text"]:focus {
 .arrivals {
     width: 100%;
     height: 691px;
+    margin-bottom: 180px;
 }
 
 .arrivals-wrapper {
@@ -584,7 +593,9 @@ input[type="text"]:focus {
     margin-top: 60px;
 }
 
-
+.arrivals-carousel-wrapper {
+    position: relative;
+}
 
 .arrivals-carousel-box {
     width: 285px;
@@ -594,24 +605,34 @@ input[type="text"]:focus {
     flex-direction:column;
     width: 285px;
     height: 413px;
-    position: relative;
-    
 }
 
-.arrivals-carousel-product {
-    
+.arrivals-carousel-rating {
+    position: absolute;
+    right: 16px;
+    top: 16px;
 }
 
-.arrivals-carousel-wishlist {
+.arrivals-carousel-wrapper:hover {
+    outline:2px solid #787A80;
+}
+
+.arrivals-carousel-buttom {
     position: absolute;
     right: 16px;
     top: 272px;
+    background: url(../img/ico/wishlist.svg) no-repeat center center;
+    background-size: 15.17px 13.33px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
 }
 
-.arrivals-carousel-box:hover {
-    transition: 1.5s;
-    outline:1px solid #17696A;
-    transform: scale(1.05); 
+.arrivals-carousel-buttom:hover {
+    background-color: rgb(235, 228, 228);
 }
 
 .arrivals-carousel-box-description {
@@ -651,5 +672,127 @@ input[type="text"]:focus {
 
 .nonaktive-arrivals-slides:hover {
     border-bottom: 3px solid #424551;
+    cursor: pointer;
+}
+
+/* ----------Блок banners---------*/
+.banners {
+
+}
+
+.banners-wrapper {
+
+}
+
+.banners-box1 {
+
+}
+
+.banners-box1-span {
+
+}
+
+.banners-box1-h2 {
+
+}
+
+.banners-box1-a {
+
+}
+
+.banners-box2 {
+
+}
+
+.banners-box2-span {
+
+}
+
+.banners-box2-h2 {
+
+}
+
+.banners-box2-a {
+
+}
+
+.banners-box2-sale {
+
+}
+
+.banners-box2-sale-text {
+
+}
+
+.banners-box2-sale-block {
+
+}
+
+.banners-box2-sale-block-1 {
+
+}
+
+.banners-box2-sale-block-span-1 {
+
+}
+
+.banners-box2-sale-block-span-2 {
+
+}
+
+.banners-box2-sale-block-2 {
+
+}
+
+.banners-box2-sale-block-3 {
+
+}
+
+.banners-box2-sale-block-4 {
+
+}
+
+.banners-box3 {
+
+}
+
+.banners-box3-span {
+
+}
+
+.banners-box3-h2 {
+
+}
+
+.banners-box3-a {
+
+}
+
+.banners-box4 {
+
+}
+
+.banners-box4-span {
+
+}
+
+.banners-box4-h2 {
+
+}
+
+.banners-box4-email {
+
+}
+
+.banners-box4-email-form {
+
+}
+
+.banners-box4-email-button {
+
+}
+
+.banners-box4-span2 {
+
 }
 
