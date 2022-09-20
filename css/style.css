@@ -768,10 +768,6 @@ input[type="text"]:focus {
     border-radius: 4px;
 }
 
-.banners-box2-span {
-
-}
-
 .banners-box2-title {
     width: 362px;
 }
@@ -792,39 +788,51 @@ input[type="text"]:focus {
 
 
 .banners-box2-sale {
-
+    width: 209px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 64px;
 }
 
 .banners-box2-sale-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+}
 
+.banners-box2-sale-block-box{
+    width: 209px;
+    height: 67px;
+    display: grid;
+    grid-template-columns:33px 38px 33px 33px;
+    gap: 24px;
+    margin-top: 12px;
 }
 
 .banners-box2-sale-block {
-
-}
-
-.banners-box2-sale-block-1 {
-
+    width: 33px;
+    height: 67px;
+    display: grid;
+    justify-items:center;
 }
 
 .banners-box2-sale-block-span-1 {
-
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;      
+    color: #1E212C;
 }
 
 .banners-box2-sale-block-span-2 {
-
-}
-
-.banners-box2-sale-block-2 {
-
-}
-
-.banners-box2-sale-block-3 {
-
-}
-
-.banners-box2-sale-block-4 {
-
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-top: 4px;
+    display: inline-block;
 }
 
 .banners-box3 {
@@ -832,12 +840,8 @@ input[type="text"]:focus {
     background: url(../img/banners/banners3.jpg) no-repeat;
     background-size: 1109px 500px;
     border-radius: 4px;
-
 }
 
-.banners-box3-span {
-
-}
 
 .banners-box3-title {
     width: 320px;
@@ -853,7 +857,6 @@ input[type="text"]:focus {
     padding-left: 32px;
     background-size: 16px 16px;
     background: url(../img/ico/right-see.svg) no-repeat center right 32px;
-    
 }
 
 .banners-box3-link:hover {
@@ -866,26 +869,63 @@ input[type="text"]:focus {
     background-size: 439px 380px;
     border-radius: 4px;
     background-color: #E5E8ED;
-
-}
-
-.banners-box4-span {
-
 }
 
 .banners-box4-email {
+    margin:32px 0 0 60px;
+    display: flex;
+    flex-direction:column;
+}
 
+.banners-box4-email-form-span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #424551;
 }
 
 .banners-box4-email-form {
+    margin-top: 8px;
+    display: flex;
+}
 
+.banners-box4-email-form input[type="text"] {
+    width: 231px;
+    height: 44px;
+}
+
+.banners-box4-email-form input[type="text"]:focus {
+    color: #9A9CA5;
+    background-color: #fff;
+    outline: 0;
 }
 
 .banners-box4-email-button {
+    width: 129px;
+    height: 44px;
+    background: #17696A;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: 231px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
 
+.banners-box4-email-button:hover {
+    cursor: pointer;
+    background-color: #0f5253;
 }
 
 .banners-box4-span2 {
-
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;    
+    color: #424551;
+    margin-top: 20px;
+    display: inline-block;
+    width: 350px;
 }
 
