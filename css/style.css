@@ -1108,6 +1108,8 @@ input[type="text"]:focus {
     font-size: 18px;
     line-height: 150%;    
     color: #424551;
+    margin-top: 16px;
+    display: inline-block;
 }
 
 .trending-carousel-box-price {
