@@ -529,12 +529,14 @@ input[type="text"]:focus {
     display: flex;
     flex-direction:column;
     justify-content: space-between;
+    
 }
 
 .categories-box-block-link:hover {
     transition: 1.5s;
     outline:1px solid #17696A;
-    transform: scale(1.05);    
+    transform: scale(1.05);  
+    transition: 0.5s;  
 }
 
 .categories-box-block-text {
@@ -622,7 +624,9 @@ input[type="text"]:focus {
 }
 
 .arrivals-carousel-wrapper:hover {
-    outline:2px solid #787A80;
+    outline:1px solid #787A80;
+    transition: 0.5s;
+    transform: scale(1.05);
 }
 
 .arrivals-carousel-buttom {
@@ -860,6 +864,7 @@ input[type="text"]:focus {
 
 .banners-box3-link:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    
 }
 
 .banners-box4 { 
@@ -971,6 +976,7 @@ input[type="text"]:focus {
 .popular-box-link:hover {
     transition: 0.5s;
     transform: scale(1.05);
+    
 }
 
 .popular-box-img {
@@ -1067,6 +1073,7 @@ input[type="text"]:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .trending-carousel-wrapper {
@@ -1082,8 +1089,12 @@ input[type="text"]:focus {
     flex-direction:column;
 }
 
+.trending-carousel-box:hover {
+    outline:1px solid #787A80;
+    border-radius:10px ;
+}
+
 .trending-carousel-buttom {
-    position: absolute;
     right: 16px;
     top:  392px;
     background: url(../img/ico/wishlist.svg) no-repeat center center;
@@ -1094,6 +1105,7 @@ input[type="text"]:focus {
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
+    position: absolute;
 }
 
 .trending-carousel-buttom:hover {
@@ -1110,6 +1122,7 @@ input[type="text"]:focus {
     color: #424551;
     margin-top: 16px;
     display: inline-block;
+    margin-left: 15px;
 }
 
 .trending-carousel-box-price {
@@ -1120,6 +1133,7 @@ input[type="text"]:focus {
     color: #1E212C;
     margin-top: 16px;
     display: inline-block;
+    margin-left: 15px;
 }
 
 .trending-link {
