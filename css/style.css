@@ -689,6 +689,7 @@ input[type="text"]:focus {
 .banners {
     width: 100%;
     height: 1016px;
+    margin-bottom: 178px;
 }
 
 .banners-wrapper {
@@ -786,7 +787,6 @@ input[type="text"]:focus {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-
 .banners-box2-sale {
     width: 209px;
     height: 100px;
@@ -842,7 +842,6 @@ input[type="text"]:focus {
     border-radius: 4px;
 }
 
-
 .banners-box3-title {
     width: 320px;
 }
@@ -895,7 +894,7 @@ input[type="text"]:focus {
 }
 
 .banners-box4-email-form input[type="text"]:focus {
-    color: #9A9CA5;
+    color:  #0f5253;
     background-color: #fff;
     outline: 0;
 }
@@ -919,6 +918,10 @@ input[type="text"]:focus {
     background-color: #0f5253;
 }
 
+.banners-box4-email-button:focus {
+    outline: 0;
+}
+
 .banners-box4-span2 {
     font-weight: 400;
     font-size: 14px;
@@ -928,4 +931,215 @@ input[type="text"]:focus {
     display: inline-block;
     width: 350px;
 }
+/* ----------Блок popular---------*/
+.popular {
+    width: 100%;
+    margin-bottom: 180px;
+}
 
+.popular-wrapper {
+    width: 1230px;
+    height: 354px;
+    margin: 0 auto;
+}
+
+.popular-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    text-align: center;
+}
+
+.popular-box {
+    margin-top: 60px;
+    width: 1230px;
+    height: 234px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-box-link {
+    width: 180px;
+    height: 234px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.popular-box-link:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.popular-box-img {
+    width: 180px;
+    height: 180px;
+}
+
+.popular-box-description {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-top: 24px;
+}
+/* ----------Блок trending--------*/
+.trending {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending-wrapper {
+    width: 1230px;
+    height: 790px;
+}
+
+.trending-box {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-box-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;    
+    color: #1E212C;
+}
+
+.trending-box-nav {
+    width: 94px;
+    height: 48px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-box-button1 {
+    background: url(../img/ico/left.svg) no-repeat;
+    background-position: center center;
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.trending-box-button1:hover {
+    margin-left: 0;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 24px;
+    background-color: #17696A;
+}
+
+.trending-box-button2 {
+    background: url(../img/ico/right.svg) no-repeat;
+    background-position: center center;
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin-right: 12px;
+}
+
+.trending-box-button2:hover {
+    margin-right: 0;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 24px;
+    background-color: #17696A;
+}
+
+.trending-carousel {
+    width: 100%;
+    height: 522px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-carousel-wrapper {
+    width: 390px;
+    height: 538px;
+    position: relative;
+}
+
+.trending-carousel-box {
+    width: 390px;
+    height: 538px;
+    display: flex;
+    flex-direction:column;
+}
+
+.trending-carousel-buttom {
+    position: absolute;
+    right: 16px;
+    top:  392px;
+    background: url(../img/ico/wishlist.svg) no-repeat center center;
+    background-size: 15.17px 13.33px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.trending-carousel-buttom:hover {
+    background-color: rgb(235, 228, 228);
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.trending-carousel-box-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;    
+    color: #424551;
+}
+
+.trending-carousel-box-price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    align-items: center;
+    color: #1E212C;
+    margin-top: 16px;
+    display: inline-block;
+}
+
+.trending-link {
+    margin:0 auto;
+    margin-top: 80px;
+    width: 209px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    letter-spacing: 0.5px;
+    color: #17696A;
+    border: 1px solid #17696A;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.trending-link:hover {
+    background-color: rgba(107, 122, 103, 0.2);
+}
+
+/* ----------Блок --------*/
