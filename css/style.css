@@ -537,6 +537,7 @@ input[type="text"]:focus {
     outline:1px solid #17696A;
     transform: scale(1.05);  
     transition: 0.5s;  
+    
 }
 
 .categories-box-block-text {
@@ -627,6 +628,7 @@ input[type="text"]:focus {
     outline:1px solid #787A80;
     transition: 0.5s;
     transform: scale(1.05);
+    border-radius:10px ;
 }
 
 .arrivals-carousel-buttom {
@@ -1158,4 +1160,4 @@ input[type="text"]:focus {
     background-color: rgba(107, 122, 103, 0.2);
 }
 
-/* ----------Блок --------*/
+/* ----------Блок sale - начало использования БЭМ-------*/
