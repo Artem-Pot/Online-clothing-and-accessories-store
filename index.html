@@ -25,10 +25,10 @@
                             <a class="header-topbar-text-link" href="tel:4055550128">(405) 555-0128</a>
                         </div>  
                             <ul class="header-topbar-ul">
-                                <li class="header-topbar-li"><a href="#">Delivery & returns</a></li>
-                                <li class="header-topbar-li"><a href="#">Track order</a></li>
-                                <li class="header-topbar-li"><a href="#">Blog</a></li>
-                                <li class="header-topbar-li"><a href="#">Contacts</a></li>
+                                <li class="header-topbar-li"><a class="header-topbar-li-link" href="#">Delivery & returns</a></li>
+                                <li class="header-topbar-li"><a class="header-topbar-li-link" href="#">Track order</a></li>
+                                <li class="header-topbar-li"><a class="header-topbar-li-link" href="#">Blog</a></li>
+                                <li class="header-topbar-li"><a class="header-topbar-li-link" href="#">Contacts</a></li>
                             </ul>
 
                         <div class="header-topbar-data">
@@ -53,7 +53,7 @@
                                     <li class="header-nav-menu-li"><a href="#">Men</a></li>
                                     <li class="header-nav-menu-li"><a href="#">Girls</a></li>
                                     <li class="header-nav-menu-li"><a href="#">Boys</a></li>
-                                    <li class="header-nav-menu-li sale"><a href="#">Sale</a></li>
+                                    <li class="header-nav-menu-li "><a class="sale_red" href="#">Sale</a></li>
                                 </ul>
                             </div>
 
@@ -405,53 +405,60 @@
 
         <section class="sale">
             <div class="wrapper">
-                <h2 class="h2-title h2-title_sale"></h2>
 
-                <div class="arrow arrow_sale">
-                    <div class="arrow__left"></div>
-                    <div class="arrow__right"></div>
+                <div class="sale__box-title">
+                    <h2 class="h2-title h2-title_sale-location">Sale up to 70%</h2>
+
+                    <div class="buttom-arrow">
+                        <button type="buttom" class="buttom__left"></button>
+                        <button type="buttom" class="buttom__right"></button>
+                    </div>
                 </div>
 
                 <div class="sale__inner">
+
                     <div class="sale__box-product">
                         <div class="sale__img-box">
                             <img class="sale__img-product" src="img/product/sale-procuct1.jpg" alt="Кожаная сумка через плечо с золотой фурнитурой" width="390" height="440">
                             <div class="img-stars img-stars_5"></div>
                             <div class="img-favourites"></div>
                         </div>
-                        <div class="text-product text-product_sale">
+                        <div class="text-product">
                             <p class="product-description sale-description">Leather crossbody bag with gold hardware</p>
                             <span class="price-description">$89.50</span>
                             <span class="price-description_through">179.00</span>
                         </div>
                     </div>
 
-                    <div class="sale__img-box">
-                        <img class="sale__img-product" src="img/product/sale-procuct2.jpg" alt="Узкие джинсы с пуш-апом" width="390" height="440">
-                        <div class="img-favourites"></div>
-                    </div>
-                    <div class="text-product text-product_sale">
-                        <p class="product-description sale-description">Skinny push-up jeans</p>
-                        <span class="price-description">$40.00</span>
-                        <span class="price-description_through">80.00</span>
+                    <div class="sale__box-product">
+                        <div class="sale__img-box">
+                            <img class="sale__img-product" src="img/product/sale-procuct2.jpg" alt="Узкие джинсы с пуш-апом" width="390" height="440">
+                            <div class="img-favourites"></div>
+                        </div>
+                        <div class="text-product">
+                            <p class="product-description sale-description">Skinny push-up jeans</p>
+                            <span class="price-description">$40.00</span>
+                            <span class="price-description_through">80.00</span>
+                        </div>
                     </div>
 
-                    <div class="sale__img-box">
-                        <img class="sale__img-product" src="img/product/sale-procuct3.jpg" alt="Замшевые ботильоны на широком каблуке" width="390" height="440">
-                        <div class="img-stars img-stars_5"></div>
-                        <div class="img-favourites"></div>
-                    </div>
-                    <div class="text-product text-product_sale">
-                        <p class="product-description sale-description">Wide heel suede ankle boots</p>
-                        <span class="price-description">$119.16</span>
-                        <span class="price-description_through">$148.95</span>
+                    <div class="sale__box-product">
+                            <div class="sale__img-box">
+                                <img class="sale__img-product" src="img/product/sale-procuct3.jpg" alt="Замшевые ботильоны на широком каблуке" width="390" height="440">
+                                <div class="img-stars img-stars_5"></div>
+                                <div class="img-favourites"></div>
+                            </div>
+                            <div class="text-product">
+                                <p class="product-description sale-description">Wide heel suede ankle boots</p>
+                                <span class="price-description">$119.16</span>
+                                <span class="price-description_through">$148.95</span>
+                            </div>
                     </div>
 
                 </div>
 
-                <div class="button-link button-link _sale">
-                    See all sale products
-                </div>
+                <buttom type="buttom" class="button button_sale-location">See all sale products</buttom>
+
             </div>
         </section>
 

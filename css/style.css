@@ -64,7 +64,7 @@
     list-style:none;
 }  
 
-.header-topbar-li a{
+.header-topbar-li .header-topbar-li-link{
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
@@ -72,7 +72,7 @@
     opacity: 0.6;
 }  
 
-.header-topbar-li a:hover {
+.header-topbar-li .header-topbar-li-link:hover {
     opacity: 1;
 }
 
@@ -173,8 +173,8 @@
     color: #73788b;
 }
 
-.sale a{
-    color: #FF4242
+.header-nav-menu-li .sale_red{
+    color: #FF4242;
 }
 
 .header-nav-search {
@@ -1161,3 +1161,141 @@ input[type="text"]:focus {
 }
 
 /* ----------Блок sale - начало использования БЭМ-------*/
+.sale {
+    height: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1230px;
+}
+
+.sale__box-title {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.buttom-arrow {
+    width: 94px;
+    height: 24px;
+    margin-right: 0;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttom__left {
+    background: url(../img/ico/left.svg) no-repeat;
+    background-position: center center;
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.buttom__left:hover {
+    margin-left: 0;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 24px;
+    background-color: #17696A;
+}
+
+.buttom__right {
+    background: url(../img/ico/right.svg) no-repeat;
+    background-position: center center;
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin-right: 12px;
+}
+
+.buttom__right:hover {
+    margin-right: 0;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 24px;
+    background-color: #17696A;
+}
+
+.sale__inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sale__box-product {
+    width: 390px;
+    height: 538px;
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+
+.sale__img-box {
+    
+}
+
+.sale__img-product {
+    position: relative;
+}
+
+.img-stars {
+    right: 16px;
+    top: 16px;
+    background: url(../img/ico/rating4.svg) no-repeat;
+    background-size: 78px 14px;
+    position: absolute;
+}
+
+.img-stars_5 {
+    
+}
+
+.img-favourites {
+
+}
+
+.text-product {
+
+}
+
+.product-description {
+
+}
+
+.sale-description {
+
+}
+
+.price-description {
+
+}
+
+.price-description_through {
+
+}
+
+.button {
+
+}
+
+.button_sale-location {
+}
