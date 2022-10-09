@@ -352,121 +352,238 @@
 
             </div>
         </section>
-<!--   Блок Трендовые товары    -->
+<!--   Блок Трендовые товары - начало использования БЭМ    -->
 
-        <section class="trending">
-            <div class="trending-wrapper">
+<section class="trending">
+    <div class="wrapper-block">
 
-                <div class="trending-box">
-                    <h2 class="trending-box-title">Trending now</h2>
-                    <div class="trending-box-nav">
-                        <button type="buttom" class="trending-box-button1"></button>
-                        <button type="buttom" class="trending-box-button2"></button>
-                    </div>
-                </div>
-
-                <div class="trending-carousel">
-                    
-                    <div class="trending-carousel-wrapper">
-                        <a class="trending-carousel-box" href="#">
-                            <img src="img/ico/rating5.svg" class="arrivals-carousel-rating" width="78" height="14">
-                            <img src="img/product/trending-product1.jpg" class="arrivals-carousel-product" width="390" height="440" atl="Рубашка со вставной кружевной отделкой">
-                            <span class="trending-carousel-box-description">Shirt with insertion lace trims</span>
-                            <span class="trending-carousel-box-price">$49.95</span>
-                        </a>
-                        <buttom type="buttom" class="trending-carousel-buttom"></buttom>
-                    </div>
-
-                    <div class="trending-carousel-wrapper">
-                        <a class="trending-carousel-box" href="#">
-                            <img src="img/ico/rating4.svg" class="arrivals-carousel-rating" width="78" height="14">
-                            <img src="img/product/trending-product2.jpg" class="arrivals-carousel-product" width="390" height="440" atl="Часы с синим кожаным ремнем">
-                            <span class="trending-carousel-box-description">Chrono watch with blue leather belt</span>
-                            <span class="trending-carousel-box-price">$120.60</span>
-                        </a>
-                        <buttom type="buttom" class="trending-carousel-buttom"></buttom>
-                    </div>
-
-                    <div class="trending-carousel-wrapper">
-                        <a class="trending-carousel-box" href="#">
-                            <img src="img/product/trending-product3.jpg" class="arrivals-carousel-product" width="390" height="440" atl="Клетчатое пальто с контрастным цветом">
-                            <span class="trending-carousel-box-description">Check coat with colour contrast</span>
-                            <span class="trending-carousel-box-price">$183.45</span>
-                        </a>
-                        <buttom type="buttom" class="trending-carousel-buttom"></buttom>
-                    </div>
-                </div>
-
-                <a class="trending-link">Explore top sales</a>
-            </div>
-        </section>
-
-<!--   Блок sale - начало использования БЭМ   -->
-
-        <section class="sale">
-            <div class="wrapper">
-
-                <div class="sale__box-title">
-                    <h2 class="h2-title h2-title_sale-location">Sale up to 70%</h2>
+        <div class="product-title">
+                <div class="trending-box-nav">
+                    <h2 class="h2-title h2-title_product-title">Trending now</h2>
 
                     <div class="buttom-arrow">
-                        <button type="buttom" class="buttom__left"></button>
-                        <button type="buttom" class="buttom__right"></button>
+                        <button type="button" class="button-arrow__left"></button>
+                        <button type="button" class="button-arrow__right"></button>
+                    </div>
+                </div>   
+        </div>
+
+        <div class="wrapper-product">
+
+            <div class="product-box">
+                <div class="product-box__img-box">
+                    <img class="product-box__img-product" src="img/product/trending-product1.jpg" alt="Рубашка со вставной кружевной отделкой" width="390" height="440">
+                    <div class="img-stars img-stars_5"></div>
+                    <button type="button" class="button-favourites"></button>
+                </div>
+                <div class="text-product text-product_product-box">
+                    <p class="description-product description-product_product-box">Shirt with insertion lace trims</p>
+                    <div class="price-box price-box_product-box">
+                        <span class="price-description price-description_trending">$49.95</span>
                     </div>
                 </div>
 
-                <div class="sale__inner">
+                <div class="features">
+                    <div class="features-box">
+                        <div class="size">
+                            <span class="size__text">XS</span>
+                            <span class="size__text">S</span>
+                            <span class="size__text">M</span>
+                            <span class="size__text">L</span>
+                            <span class="size__text">XL</span>
+                        </div>
 
-                    <div class="sale__box-product">
-                        <div class="sale__img-box">
-                            <img class="sale__img-product" src="img/product/sale-procuct1.jpg" alt="Кожаная сумка через плечо с золотой фурнитурой" width="390" height="440">
-                            <div class="discount-percentage">-50%</div>
+                        <div class="sale__col">
+                            <div class="product-colour product-colour_black"></div>
+                            <div class="product-colour product-colour_brown"></div>
+                            <div class="product-colour product-colour_white"></div>
+                        </div>
+                    </div>
+                    <button type="button" class="button_add-cart">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-box__img-box">
+                    <img class="product-box__img-product" src="img/product/trending-product2.jpg" alt="Часы с синим кожаным ремнем" width="390" height="440">
+                    <div class="img-stars img-stars_4"></div>
+                    <button type="button" class="button-favourites"></button>
+                </div>
+                <div class="text-product text-product_product-box">
+                    <p class="description-product description-product_product-box">Chrono watch with blue leather belt</p>
+                    <div class="price-box price-box_product-box">
+                        <span class="price-description price-description_trending">$120.60</span>
+                    </div>    
+                </div>
+
+                <div class="features">
+                    <div class="features-box">
+                        <div class="size">
+                        </div>
+
+                        <div class="sale__col">
+                            <div class="product-colour product-colour_black"></div>
+                            <div class="product-colour product-colour_brown"></div>
+                            <div class="product-colour product-colour_white"></div>
+                        </div>
+                    </div>
+                    <button type="button" class="button_add-cart">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                    <div class="product-box__img-box">
+                        <img class="product-box__img-product" src="img/product/trending-product3.jpg" alt="Клетчатое пальто с контрастным цветом" width="390" height="440">
+                        <button type="button" class="button-favourites"></button>
+                    </div>
+                    <div class="text-product text-product_product-box">
+                        <p class="description-product description-product_product-box">Check coat with colour contrast</p>
+                        <div class="price-box price-box_product-box">
+                            <span class="price-description price-description_trending">$183.45</span>
+                        </div>
+                    </div>
+
+                    <div class="features">
+                        <div class="features-box">
+                            <div class="size">
+                                <span class="size__text">XS</span>
+                                <span class="size__text">S</span>
+                                <span class="size__text">M</span>
+                                <span class="size__text">L</span>
+                                <span class="size__text">XL</span>
+                            </div>
+
+                        </div>
+                        <button type="button" class="button_add-cart">Add to cart</button>
+                    </div>
+            </div>
+
+        </div>
+
+        <a class="button-link" href="#">Explore top sales</a>
+    </div>
+</section>
+
+
+
+<!--   Блок sale    -->
+
+        <section class="sale">
+            <div class="wrapper-block">
+
+                <div class="product-title">
+                    <div class="trending-box-nav">
+                        <h2 class="h2-title h2-title_product-title">Sale up to 70%</h2>
+
+                        <div class="buttom-arrow">
+                            <button type="button" class="button-arrow__left"></button>
+                            <button type="button" class="button-arrow__right"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-product">
+
+                    <div class="product-box">
+                        <div class="product-box__img-box">
+                            <img class="product-box__img-product" src="img/product/sale-procuct1.jpg" alt="Кожаная сумка через плечо с золотой фурнитурой" width="390" height="440">
+                            <div class="discount-percentage product-box_discount-percentage">-50%</div>
                             <div class="img-stars img-stars_5"></div>
-                            <buttom type="buttom" class="buttom-favourites"></buttom>
+                            <button type="button" class="button-favourites"></button>
                         </div>
-                        <div class="text-product">
-                            <p class="product-description sale-description">Leather crossbody bag with gold hardware</p>
-                            <div class="price-box">
-                                <span class="price-description">$89.50</span>
-                                <span class="price-description_through">179.00</span>
+                        <div class="text-product text-product_product-box">
+                            <p class="description-product description-product_product-box">Leather crossbody bag with gold hardware</p>
+                            <div class="price-box price-box_product-box">
+                                <span class="price-description price-description_product-box">$89.50</span>
+                                <span class="price-description price-description_product-box_through">179.00</span>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="sale__box-product">
-                        <div class="sale__img-box">
-                            <img class="sale__img-product" src="img/product/sale-procuct2.jpg" alt="Узкие джинсы с пуш-апом" width="390" height="440">
-                            <div class="discount-percentage">-50%</div>
-                            <buttom type="buttom" class="buttom-favourites"></buttom>
-                        </div>
-                        <div class="text-product">
-                            <p class="product-description sale-description">Skinny push-up jeans</p>
-                            <div class="price-box">
-                                <span class="price-description">$40.00</span>
-                                <span class="price-description_through">80.00</span>
-                            </div>    
-                        </div>
-                    </div>
+                        <div class="features">
+                            <div class="features-box">
+                                <div class="size">
+                                </div>
 
-                    <div class="sale__box-product">
-                            <div class="sale__img-box">
-                                <img class="sale__img-product" src="img/product/sale-procuct3.jpg" alt="Замшевые ботильоны на широком каблуке" width="390" height="440">
-                                <div class="discount-percentage">-20%</div>
-                                <div class="img-stars img-stars_5"></div>
-                                <buttom type="buttom" class="buttom-favourites"></buttom>
-                            </div>
-                            <div class="text-product">
-                                <p class="product-description sale-description">Wide heel suede ankle boots</p>
-                                <div class="price-box">
-                                    <span class="price-description">$119.16</span>
-                                    <span class="price-description_through">$148.95</span>
+                                <div class="sale__col">
+                                    <div class="product-colour product-colour_black"></div>
+                                    <div class="product-colour product-colour_brown"></div>
+                                    <div class="product-colour product-colour_white"></div>
                                 </div>
                             </div>
+                            <button type="button" class="button_add-cart">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-box">
+                        <div class="product-box__img-box">
+                            <img class="product-box__img-product" src="img/product/sale-procuct2.jpg" alt="Узкие джинсы с пуш-апом" width="390" height="440">
+                            <div class="discount-percentage product-box_discount-percentage">-50%</div>
+                            <button type="button" class="button-favourites"></button>
+                        </div>
+                        <div class="text-product text-product_product-box">
+                            <p class="description-product description-product_product-box">Skinny push-up jeans</p>
+                            <div class="price-box price-box_product-box">
+                                <span class="price-description price-description_product-box">$40.00</span>
+                                <span class="price-description price-description_product-box_through">80.00</span>
+                            </div>    
+                        </div>
+
+                        <div class="features">
+                            <div class="features-box">
+                                <div class="size">
+                                    <span class="size__text">XS</span>
+                                    <span class="size__text">S</span>
+                                    <span class="size__text">M</span>
+                                    <span class="size__text">L</span>
+                                    <span class="size__text">XL</span>
+                                </div>
+
+                                <div class="sale__col">
+
+                                </div>
+                            </div>
+                            <button type="button" class="button_add-cart">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-box">
+                            <div class="product-box__img-box">
+                                <img class="product-box__img-product" src="img/product/sale-procuct3.jpg" alt="Замшевые ботильоны на широком каблуке" width="390" height="440">
+                                <div class="discount-percentage product-box_discount-percentage">-20%</div>
+                                <div class="img-stars img-stars_5"></div>
+                                <button type="button" class="button-favourites"></button>
+                            </div>
+                            <div class="text-product text-product_product-box">
+                                <p class="description-product description-product_product-box">Wide heel suede ankle boots</p>
+                                <div class="price-box price-box_product-box">
+                                    <span class="price-description price-description_product-box">$119.16</span>
+                                    <span class="price-description price-description_product-box_through">$148.95</span>
+                                </div>
+                            </div>
+
+                            <div class="features">
+                                <div class="features-box">
+                                    <div class="size">
+                                        <span class="size__text">36</span>
+                                        <span class="size__text">37</span>
+                                        <span class="size__text">38</span>
+                                        <span class="size__text">39</span>
+                                        <span class="size__text">40</span>
+                                    </div>
+    
+                                    <div class="sale__col">
+                                        <div class="product-colour product-colour_black"></div>
+                                        <div class="product-colour product-colour_brown"></div>
+                                        <div class="product-colour product-colour_white"></div>
+                                    </div>
+                                </div>
+                                <button type="button" class="button_add-cart">Add to cart</button>
+                            </div>
                     </div>
 
                 </div>
 
-                <buttom type="buttom" class="button button_sale-location">See all sale products</buttom>
+                <a class="button-link" href="#">See all sale products</a>
 
             </div>
         </section>
