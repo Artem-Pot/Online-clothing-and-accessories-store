@@ -994,7 +994,7 @@ input[type="text"]:focus {
     color: #1E212C;
     margin-top: 24px;
 }
-/* ----------Блок trending--------*/
+/* ----------Блок trending БЭМ--------*/
 .trending {
     width: 100%;
     height: 950px;
@@ -1003,9 +1003,9 @@ input[type="text"]:focus {
     justify-content: center;
 }
 
-
 .wrapper-block {
     width: 1230px;
+    margin: 0 auto;
 }
 
 .product-title {
@@ -1022,10 +1022,10 @@ input[type="text"]:focus {
 }
 
 .button-arrow {
-    width: 94px;
-    height: 24px;
+    width: 84px;
+    height: 48px;
     margin-right: 0;
-    margin-top: 31px;
+    margin-top: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1085,15 +1085,11 @@ input[type="text"]:focus {
 }
 
 .product-box:hover {
-cursor: pointer;
+    cursor: pointer;
 }
 
 .product-box__img-box {
     position: relative;
-}
-
-.product-box__img-product {
-    
 }
 
 .discount-percentage {
@@ -1126,6 +1122,38 @@ cursor: pointer;
 
 .img-stars_5 {
     background: url(../img/ico/rating5.svg) no-repeat;
+}
+
+.button-product__left {
+    background: url(../img/ico/left-chevron-pr.svg) no-repeat center center;
+    position: absolute;
+    width:9px;
+    height:16px;
+    left: 16px;
+    top: 208px;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.button-product__left:hover {
+    transform: scale(1.3);
+}
+
+.button-product__right {
+    background: url(../img/ico/right-chevron-pr.svg) no-repeat;
+    position: absolute;
+    width:9px;
+    height:16px;
+    right: 16px;
+    top: 208px;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.button-product__right:hover {
+    transform: scale(1.3);
 }
 
 .button-favourites {
@@ -1169,10 +1197,6 @@ cursor: pointer;
     margin-top: 8px;
 }
 
-.sale-description {
-
-}
-
 .price-description {
     font-weight: 700;
     font-size: 24px;
@@ -1185,7 +1209,6 @@ cursor: pointer;
 .price-description_trending {
     color: #1E212C;
 }
-
 
 .price-description_product-box_through {
     font-weight: 400;
@@ -1202,6 +1225,10 @@ cursor: pointer;
     transition: 1s; 
     position: relative; 
     opacity: 1;
+}
+
+.product-box:hover .button-product__left, .product-box:hover .button-product__right {
+    display: inline;
 }
 
 .features {
@@ -1284,7 +1311,8 @@ cursor: pointer;
     background: url(../img/ico/cart-buttom.svg) no-repeat center left 129px;
     background-size: 15px 13.67px;
     background-color: #17696A;
-    border-radius: 4px;
+    border: 4px solid #17696A;
+    border-radius:4px;
     font-weight: 700;
     font-size: 14px;
     line-height: 44px;
@@ -1295,7 +1323,7 @@ cursor: pointer;
 .button_add-cart:hover {
     cursor: pointer;
     background-color: #0f5253;
-    
+    border: 4px solid #0f5253;
 }
 
 .button-link {
@@ -1322,12 +1350,140 @@ cursor: pointer;
     
 }
 
-
-
-/* ----------Блок sale - начало использования БЭМ-------*/
+/* ----------Блок sale -------*/
 .sale {
     height: 940px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* ----------Блок Enjoy -------*/
+.enjoy {
+    height: 300px;
+    width: 100%;
+    background-color: #1E212C;
+}
+
+.wrapper-block_enjoy {
+    background-color: #1E212C;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+
+.enjoy__img-block {
+    width:490px;
+    height: 300px;
+    transform: translateY(-30px);
+}
+
+.enjoy__text-block {
+    display: flex;
+    flex-direction:column;
+    width: 602px;
+    height: 179px;
+    background-color: #15406b;
+    margin-left: 141px;
+}
+
+.h3-title {
+    width: 600px;
+    height: 84px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.app-store {
+    margin-top: 48px;
+    width: 348px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_app-store {
+    background-image: url(../img/button/app-store.png);
+    width: 162px;
+    height: 48px;
+    border: none;
+    border-radius:8px;
+}
+
+.button_google-play {
+    background-image: url(../img/button/google-play.png);
+    width: 162px;
+    height: 48px;
+    border: none;
+    border-radius:8px;
+}
+/* ----------Блок how we work -------*/
+.work {
+    height: 436px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-block_work {
+   
+}
+
+.work_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1230px;
+    height: 136px;
+    
+}
+
+.work_box {
+    background-color: #874E19;
+    width: 240px;
+    height: 136px;
+}
+
+.work_ico {
+    width: 48px;
+    height: 48px;
+    background-image: 48px 48px;
+}
+
+.work__ico_delivery {
+    background-image: url(../img/ico/ic-delivery.svg);
+}
+
+.work__ico_call-center {
+
+}
+
+.work__ico_shield {
+
+}
+
+.work__ico_credit {
+
+}
+
+.h4-title {
+
+}
+
+.h4-title_work {
+
+}
+
+.work_description {
+
+}
+
+.vertical-line_work {
+    border: 1px solid #E6E6E7;
+    margin-left: 45px;
+    height: 136px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
