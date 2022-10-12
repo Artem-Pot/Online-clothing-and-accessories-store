@@ -1673,27 +1673,38 @@ input[type="text"]:focus {
 
 /* ----------Блок Subscribe -------*/
 .subscribe {
-
+    background-color: #F4F5F6;
 }
 
 .wrapper-block_subscribe {
+    display: flex;
 
 }
 
 .subscribe__block-text {
-
+    width: 769px;
+    height: 546px;
+    background-color: #874E19;
 }
 
 .h2-title_subscribe {
-
+    margin-top: 100px;
 }
 
 .subscribe__description {
-
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #787A80;
 }
 
 .subscribe__box-buttons {
-
+    margin-top: 36px;
+    width: 303px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .button {
@@ -1701,23 +1712,66 @@ input[type="text"]:focus {
 }
 
 .button_subscribe {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.5px 16px;
+    border: 1px solid #D7DADD;
+    border: none;
+    border-radius: 4px;
 }
 
-.button_subscribe-active {
-
+.button_subscribe:hover {
+    background: #17696A;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .form-subscribe {
-
+    margin-top: 32px;
+    display: flex;
+    flex-direction:column;
 }
 
 .form-subscribe__description {
+    display: inline-block;
+}
 
+input[type="email"] {
+    margin-top: 15px;
+    width: 341px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #9A9CA5;
+}
+
+input[type="email"]:focus {
+    outline: 0;
 }
 
 .button_form-subscribe {
+    width: 154px;
+    height: 52px;
+    right: 0px;
+    top: 34px;
+    background: #17696A;
+    border-radius: 0px 4px 4px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+}
 
+.button_form-subscribe:hover {
+    background: #0f5253;
+    cursor: pointer;
 }
 
 .form-subscribe__checkbox {
@@ -1729,7 +1783,9 @@ input[type="text"]:focus {
 }
 
 .subscribe__block-img {
-
+    width: 462px;
+    height: 546px;
+    background-color: cadetblue;
 }
 
 .subscribe__img {
