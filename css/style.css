@@ -142,16 +142,19 @@
 
 .header-nav {
     margin: 0 auto;
-    width: 1230px;
+    max-width: 1230px;
     height: 86px;
     display: flex;
     align-items: center;
+    
+    
 }
 
 .header-nav-menu {
     width: 348px;
     height: 26px;
     margin-left: 60px;
+    
 }
 
 .header-nav-menu-ul {
@@ -1491,7 +1494,7 @@ input[type="text"]:focus {
     color: #1E212C;
 }
 
-.work_description {
+.work__description {
     margin-top: 8px;
     font-weight: 400;
     font-size: 16px;
@@ -1566,10 +1569,6 @@ input[type="text"]:focus {
     width: 100%;
 }
 
-.wrapper-block_blog {
-    
-}
-
 .blog__block-title {
     display: flex;
     justify-content: space-between;
@@ -1584,12 +1583,11 @@ input[type="text"]:focus {
     height: 481px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .blog__article {
     width: 600px;
-    height: 483px
+    height: 483px;
     box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
 }
 
@@ -1628,23 +1626,13 @@ input[type="text"]:focus {
     color: #787A80;
 }
 
-
 .link_blog:hover {
     color: #4b4b4d;
-}
-
-.blog__comment-heading {
-
-}
-
-.blog__comment-date {
-
 }
 
 .vertical-line_blog {
     border-left: 1px solid #787A80;
     height: 12px;
-    
 }
 
 .blog__comment-com {
@@ -1659,4 +1647,91 @@ input[type="text"]:focus {
     font-size: 16px;
     line-height: 160%;
     color: #424551;
+}
+
+/* ----------Блок brands -------*/
+.brands {
+    height: 304px;
+    width: 100%;
+}
+
+.wrapper-block_brands {
+    padding-top: 120px;
+    height: 64px;
+}
+
+.brands__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands__box:hover {
+    outline: 1px solid #b6c6c7;
+    border-radius: 5px;
+}
+
+/* ----------Блок Subscribe -------*/
+.subscribe {
+
+}
+
+.wrapper-block_subscribe {
+
+}
+
+.subscribe__block-text {
+
+}
+
+.h2-title_subscribe {
+
+}
+
+.subscribe__description {
+
+}
+
+.subscribe__box-buttons {
+
+}
+
+.button {
+
+}
+
+.button_subscribe {
+
+}
+
+.button_subscribe-active {
+
+}
+
+.form-subscribe {
+
+}
+
+.form-subscribe__description {
+
+}
+
+.button_form-subscribe {
+
+}
+
+.form-subscribe__checkbox {
+
+}
+
+.form-subscribe__description-checkbox {
+
+}
+
+.subscribe__block-img {
+
+}
+
+.subscribe__img {
+    
 }
