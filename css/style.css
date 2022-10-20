@@ -514,16 +514,17 @@ input[type="text"]:focus {
 }
 /* ----------Блок categories---------*/
 .categories {
-    width: 100%;
-    height: 556px;
+    min-height: 556px;
     background-color: #fff;
 }
 
 .categories-box {
     margin: 0 auto;
-    width: 1230px;
+    max-width: 1240px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     transform: translateY(-60px);
 }
 
@@ -552,9 +553,9 @@ input[type="text"]:focus {
 }
 /* ----------Блок arrivals---------*/
 .arrivals {
-    width: 100%;
-    height: 691px;
+    min-height: 691px;
     margin-bottom: 180px;
+    padding: 0 10px;
 }
 
 .arrivals-wrapper {
@@ -601,11 +602,15 @@ input[type="text"]:focus {
 }
 
 .arrivals-carousel {
-    width: 1860px;
+    max-width: 1860px;
     display: flex;
-    justify-content: space-between;
+    flex: 1;
+    gap: 30px;
     margin-top: 60px;
+    flex-wrap:wrap;
 }
+
+
 
 .arrivals-carousel-wrapper {
     position: relative;
@@ -702,7 +707,7 @@ input[type="text"]:focus {
 }
 
 .banners-wrapper {
-    width: 1860px;
+    max-width: 1860px;
     margin: 0 auto;
     margin-bottom: 180px;
     display: grid;
@@ -945,14 +950,14 @@ input[type="text"]:focus {
 }
 /* ----------Блок popular---------*/
 .popular {
-    width: 100%;
     margin-bottom: 180px;
 }
 
 .popular-wrapper {
-    width: 1230px;
+    max-width: 1240px;
     height: 354px;
     margin: 0 auto;
+    padding:0 5px;
 }
 
 .popular-title {
@@ -965,11 +970,12 @@ input[type="text"]:focus {
 
 .popular-box {
     margin-top: 60px;
-    width: 1230px;
-    height: 234px;
+    max-width: 1230px;
+    min-height: 234px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .popular-box-link {
@@ -1008,7 +1014,7 @@ input[type="text"]:focus {
 }
 
 .wrapper-block {
-    width: 1230px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -1513,10 +1519,12 @@ input[type="text"]:focus {
 /* ----------Блок instagram-------*/
 .instagram {
     height: 440px;
-    width: 100%;
+    display: flex;
+    flex: 1;
 }
 
 .wrapper-block_work {
+    padding:0 5px;
     display: flex;
     justify-content: space-between;
 }
@@ -1550,18 +1558,12 @@ input[type="text"]:focus {
     align-items: center;
     width: 812px;
     height: 260px;
+    gap: 15px;
 }
 
-.instagram__box-img_1 {
-    display: block;
-}
-
-.instagram__box-img_2 {
-    display: block;
-}
-
-.instagram__box-img_3 {
-    display: block;
+.instagram__images {
+    display: flex;
+    flex: 1;
 }
 
 /* ----------Блок blog-------*/
@@ -1942,8 +1944,6 @@ input[type=checkbox]:checked + label:before {
 .social-network__box5 {
     background: url(../img/ico/pinterest.svg) no-repeat center center;
 }
-
-
 
 .footer__copywriter {
     height: 73px;
